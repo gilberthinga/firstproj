@@ -5,6 +5,8 @@ int schaltjahr()
 {
 
 	int jahr, erg;
+	
+	int a = 10, b = 20;
 
 	printf("Bitte geben sie ein Jahr ein:\n");
 	scanf("%i", &jahr);
@@ -13,6 +15,7 @@ int schaltjahr()
 
 	erg == 1 ? printf("Das Jahr %i ist ein Schaltjahr\n", jahr) : printf("Das Jahr %i ist kein Schaltjahr\n", jahr);
 
+	a += b;
 
 	return 0;
 }
