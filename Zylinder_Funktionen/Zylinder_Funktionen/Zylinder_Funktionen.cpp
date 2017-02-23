@@ -30,7 +30,7 @@ double fTurm(double schattenleange, double winkel) {
 
 int main()
 {
-	double schattenleange = 0.0, winkel = 0.0, turm = 0.0, diameter = 0.0, height = 0.0;
+	double schattenleange = 0.0, winkel = 0.0, diameter = 0.0, height = 0.0;
 	
 	printf("++++++++++Volumen++++++++++\n");
 	printf("Bitte geben sie die Hoehe ein:");
